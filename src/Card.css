@@ -1,0 +1,22 @@
+.cardStyle{
+    background-color: aqua;
+    float: left;
+    margin: 20px;
+    padding: 20px;
+    text-align: center;
+    transition: 0.2s;
+    width: 12em;
+    height: 18em;
+    border-radius: 5%;
+ 
+}
+
+.CardImg{
+    width: 10em;
+}
+
+.cardStyle:hover{
+    transform: scale(1.04);
+    background-color: #04eded;
+    border-radius: 0%;
+}
